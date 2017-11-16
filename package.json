@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "callback barrier implementation for async/await",
   "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/geek/cb-barrier.git"
+  },
   "scripts": {
     "lint": "belly-button --fix",
     "pretest": "npm run lint",
