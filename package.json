@@ -1,0 +1,19 @@
+{
+  "name": "barrier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "scripts": {
+    "lint": "belly-button --fix",
+    "pretest": "npm run lint",
+    "test": "lab -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "belly-button": "^4.1.0",
+    "code": "^5.1.2",
+    "lab": "^15.1.2"
+  }
+}
