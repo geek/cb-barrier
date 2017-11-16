@@ -1,7 +1,7 @@
 {
-  "name": "barrier",
+  "name": "cb-barrier",
   "version": "1.0.0",
-  "description": "",
+  "description": "callback barrier implementation for async/await",
   "main": "lib",
   "scripts": {
     "lint": "belly-button --fix",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "BSD-3",
   "devDependencies": {
     "belly-button": "^4.1.0",
     "code": "^5.1.2",
