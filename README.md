@@ -4,7 +4,7 @@ This is a fork of [Teamwork](https://www.npmjs.com/package/teamwork).
 ## Usage
 
 ```js
-const Barrier = require('cp-barrier');
+const Barrier = require('cb-barrier');
 
 const main = async () => {
   const barrier = new Barrier();
@@ -22,7 +22,7 @@ const main = async () => {
 You can specify a number in the constructor for the number of times a barrier should be passed before it resolves.
 
 ```js
-const Barrier = require('cp-barrier');
+const Barrier = require('cb-barrier');
 
 const main = async () => {
   const barrier = new Barrier(2);
@@ -40,7 +40,7 @@ const main = async () => {
 ### Providing return values
 
 ```js
-const Barrier = require('cp-barrier');
+const Barrier = require('cb-barrier');
 
 const main = async () => {
   const barrier = new Barrier();
