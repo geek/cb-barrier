@@ -1,6 +1,6 @@
 {
   "name": "cb-barrier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "callback barrier implementation for async/await",
   "main": "lib",
   "repository": {
