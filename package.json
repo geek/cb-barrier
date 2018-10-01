@@ -10,14 +10,14 @@
   "scripts": {
     "lint": "belly-button --fix",
     "pretest": "npm run lint",
-    "test": "lab -c"
+    "test": "lab -t 100 --leaks"
   },
   "keywords": [],
-  "author": "",
+  "author": "wyatt",
   "license": "BSD-3",
   "devDependencies": {
-    "belly-button": "^4.1.0",
-    "code": "^5.1.2",
-    "lab": "^15.1.2"
+    "belly-button": "4.1.x",
+    "code": "5.2.x",
+    "lab": "16.1.x"
   }
 }
