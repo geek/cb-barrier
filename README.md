@@ -53,3 +53,22 @@ const main = async () => {
   const value = await barrier;
 };
 ```
+
+### Providing an error
+
+If you provide an Error to the `pass` function then the resulting promise will reject.
+
+```js
+const Barrier = require('cb-barrier');
+
+const main = () => {
+  const barrier = new Barrier();
+
+  setTimeout(() => {
+    barrier.pass(new Error('my error'));
+  }, 100);
+
+  // the calling function will get a rejection
+  return barrier;
+};
+```

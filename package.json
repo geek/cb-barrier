@@ -16,8 +16,8 @@
   "author": "wyatt",
   "license": "BSD-3",
   "devDependencies": {
-    "belly-button": "4.1.x",
+    "belly-button": "5.0.x",
     "code": "5.2.x",
-    "lab": "16.1.x"
+    "lab": "18.0.x"
   }
 }
